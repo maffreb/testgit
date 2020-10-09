@@ -17,6 +17,7 @@ get_header();
     <p><?php the_time();?></p>
     <p><?php the_author_posts_link();?></p>
 </article>
+<?php comments_template();?>
 <?php endwhile; endif; ?>
 
 <?php
