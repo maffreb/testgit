@@ -16,6 +16,7 @@ get_header();
     <div><?php the_content(); ?></div>
     <p><?php the_time();?></p>
     <p><?php the_author_posts_link();?></p>
+    <p>Cet article a <?php comments_number();?>.</p>
 </article>
 <?php comments_template();?>
 <?php endwhile; endif; ?>
