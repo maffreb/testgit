@@ -3,7 +3,6 @@
     <head>
     	<title><?php bloginfo('name');?>-<?php bloginfo('description');?></title>
         <meta charset="UTF-8">
-        <title>Wordpress c'est pas bien</title>
         <meta name="author" content="Blandine Maffre">
         <meta name="keywords" content="Blandine Maffre, Modèle, HTML">
         <meta name="description" content="Modèle HTML de Blandine Maffre">
@@ -13,7 +12,7 @@
         <?php wp_head();?>
 
     </head>
-    <body>       
+    <body>
         <header>
         	<nav id="menuprincipal">
         		<?php wp_page_menu('show_home=1');?>
